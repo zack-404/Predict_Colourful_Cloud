@@ -179,11 +179,13 @@ $$ n_{air}(λ, T, v, p)≈1+( \frac\\{T}{77.6 \times\\10^{−6}})(1+ \frac
 
 where  $λ$ is wavelength, using 700 nm or 700000 μm as red-light wavelength, and the equation is using μm as the unit of wavelength, $T$ is temperature, $p$ is air pressure, and $v$ is the pressure of water vapor. However, we couldn’t get the $v$ directly, so we use the below equation [4] : 
 
-$$v=-\frac{1}{ρg}∫_{p_2}^{p_1}M_pdp $$ (1.2.3.2)
+$$v=-\frac{1}{ρg}∫_{p_2}^{p_1}M_pdp $$ 
+(1.2.3.2)
 
 Where $v$ is precipitable water vapor ($cm$), $g$ is the acceleration due to the earth’s gravity (986.665 $cm/sec^2$), $ρ$ is the density of liquid water ($g/cm^3$),$p$ is the atmospheric pressure along altitude ($mbar$),$P_1$ and $P_2$ are the atmospheric pressure at the surface and the top of the atmosphere respectively. $M_p$ is mixing ratio at the pressure level, $p$. The integration is from the surface at $P_1$ up to the pressure designated by $P_2$ which depends on the final altitude reached by the radiosonde observation. $M_p$ can be calculate by below: 
 
-$$ M_p=\frac{0.622\times e}{p−e} $$ (1.2.3.3)
+$$ M_p=\frac{0.622\times e}{p−e} $$ 
+(1.2.3.3)
 
 Where $e$ is the actual vapor pressure ($mbar$ ). The actual vapor pressure is obtained as the product of the saturated vapor pressure ($e_s$) and the relative humidity ($RH$) at pressure $p$
 
@@ -191,7 +193,8 @@ $$ e=\frac{RH\times e_x}{100} $$ (1.2.3.4)
 
 The saturated vapor pressure value depends only on the air temperature ($T$) in degree Celsius. The saturated vapor pressure (in $mbar$) is calculated according to below: 
 
-$$ e_X=6.112\exp(\frac{17.67\times T}{T+243.5})$$ (1.2.3.5)
+$$ e_X=6.112\exp(\frac{17.67\times T}{T+243.5})$$ 
+(1.2.3.5)
 
 #### 1.2.3 The relation between time and solar altitude
 
